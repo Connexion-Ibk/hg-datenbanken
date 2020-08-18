@@ -1,4 +1,4 @@
-# hg-datenbanken
+# HG-Datenbanken Webservices Information
 Infos und Demos für Webservices
 
 ## Aufruf der Webservices
