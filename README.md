@@ -2,7 +2,7 @@
 Infos und Demos für Webservices
 
 ## Aufruf der Webservices
-Der Aufruf kann mit dem Programm **Curl** simuliert werden. Das Programm Curl ist in Windows 10 bereits enthalten, bei älteren Windows Versionen muss das Programm heruntergeladen werden. Curl ist Open Source und kann von der Website https://curl.haxx.se/ für diverse Betriebssysteme heruntergeladen werden.
+Der Aufruf kann mit dem Programm **Curl** simuliert werden. Das Programm **Curl** ist in Windows 10 bereits enthalten, bei älteren Windows Versionen muss das Programm heruntergeladen werden. **Curl** ist Open Source und kann von der Website https://curl.haxx.se/ für diverse Betriebssysteme heruntergeladen werden.
 
 ## Aufrufe der Webservices
 Die Dokumentation zu den Webservives ist auf unter der Uri https://db.hgkv.at/apiDocumentation/index.html unter dem Punkt *HgkvService400* erreichbar, die anderen Menüpunkte sind nicht für die Services verwendbar.
@@ -20,3 +20,12 @@ curl --user user:password -x GET "https://db.hgkv.at/api/service/400/Ping" -H "a
 
 #### Testen der Verbindung
 Falls es zu Fehlermeldungen kommt können sie den oben genannten Aufruf *Ping* auch ohne Anmeldung verwenden um zu überprüfen ob sie die Services generell erreichen können.
+
+## Beispiele:
+```
+C:\>curl -X GET "https://db.hgkv.at/api/service/400/Ping" -H "accept: application/json"
+{"text":"Pong"}
+
+C:\>curl -X GET "https://db.hgkv.at/api/service/400/Ping" -H "accept: application/xml"
+<Result xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Text>Pong</Text></Result>
+```
