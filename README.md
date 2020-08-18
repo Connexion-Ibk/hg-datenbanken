@@ -2,7 +2,7 @@
 Infos und Demos für Webservices
 
 ## Aufruf der Webservices
-Der Aufruf kann mit dem Programm Curl simuliert werden. Das Programm Curl ist in Windows 10 bereits enthalten, bei älteren Windows Versionen muss das Programm heruntergeladen werden. Curl ist Open Source und kann von der Website https://curl.haxx.se/ für diverse Betriebssysteme heruntergeladen werden.
+Der Aufruf kann mit dem Programm **Curl** simuliert werden. Das Programm Curl ist in Windows 10 bereits enthalten, bei älteren Windows Versionen muss das Programm heruntergeladen werden. Curl ist Open Source und kann von der Website https://curl.haxx.se/ für diverse Betriebssysteme heruntergeladen werden.
 
 ## Aufrufe der Webservices
 Die Dokumentation zu den Webservives ist auf unter der Uri https://db.hgkv.at/apiDocumentation/index.html unter dem Punkt *HgkvService400* erreichbar, die anderen Menüpunkte sind nicht für die Services verwendbar.
